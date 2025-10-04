@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Darker+Grotesque:wght@300..900&family=Eczar:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+p,
+a,
+span,
+button {
+    font-family: 'DM Sans';
+}
+
+img {
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu';
+}
+
+
+/* SOME OF THE ALL-ROUNDER */
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.page-width {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.primary-button {
+    color: white;
+    background: rgba(169, 199, 212, 1);
+    padding: 20px 40px;
+    border-radius: 9999px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.primary-button:hover {
+    background: rgba(0, 180, 220);
+}
+
+.secandary-button {
+    color: black;
+    background: rgba(255, 187, 63, 0);
+    padding: 20px 40px;
+    border-radius: 9999px;
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.secandary-button:hover {
+    background: rgba(0, 180, 220);
+    border: 1px solid rgb(0, 180, 220);
+}
+
+.third-button {
+    color: white;
+    background: rgba(34, 40, 42, 1);
+    padding: 20px 40px;
+    border-radius: 9999px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.third-button:hover {
+    background: black;
+}
+
+.std-39px {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 39.06px;
+    line-height: 39.06px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.std-25px {
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-select {
+    border: none;
+    outline: none;
+}
+
+.gap-10px {
+    display: flex;
+    gap: 10px;
+}
+
+.gap-20px {
+    display: flex;
+    gap: 20px;
+}
+
+.gap-15px {
+    display: flex;
+    gap: 15px;
+}
+
+.gap-30px {
+    display: flex;
+    gap: 30px;
+}
+
+.gap-40px {
+    display: flex;
+    gap: 40px;
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.gray {
+    color: gray;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+.cat {
+    font-size: 20px;
+}
+
+
+/* HEADER STARTS */
+
+nav {
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header-content-right ul li,
+.header-content-left ul li {
+    list-style: none;
+}
+
+.header-content-right {
+    align-items: center;
+}
+
+.header-content {
+    height: 91px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 95px;
+    max-height: 120px;
+}
+
+header ul li a,
+header ul li a img {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+.hem-burger {
+    display: none;
+}
+
+.arrow {
+    padding-left: 10px;
+}
+
+.trial {
+    background: green;
+    color: red
+}
+
+/* BANNER ONE STYLLING STARTS */
+
+.banner-wrapper {
+    position: relative;
+    justify-content: center;
+}
+
+.banner-inner {
+    position: absolute;
+    transform: translate(-7%, -50%);
+    top: 50%;
+    padding-left: 40px;
+}
+
+.pic-for-sml-scr {
+    display: none;
+}
+
+h2.h1 {
+    font-size: 48px;
+}
+
+
+/* SECTION WITH AUTOSHIP AND SAVE */
+
+.autoship-wrapper {
+    align-items: center;
+    padding: 40px;
+}
+
+.section-of-autoship {
+    background: rgba(246, 249, 251, 1);
+}
+
+
+/* SECTION WITH PRODUCT */
+
+.product-image {
+    height: 338px;
+}
+
+.product-wrapper {
+    margin-top: 80px;
+}
+
+.product-card--bottom,
+.product-wrapper {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* COMMUNITY WORKS */
+
+.community-line {
+    max-width: 1042px;
+    margin: auto;
+}
+
+.community-wrapper {
+    padding: 40px;
+    margin: 80px 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(246, 249, 251, 1);
+}
+
+.community-image {
+    height: 90px;
+    width: 90px;
+}
+
+
+/* SLEEPING BUUNY IMAGE WITH TEXT */
+
+.sleeping-bunny-image-with-text-wrapper {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.sleeping-bunny-image-container {
+    width: 700px;
+    height: 550px;
+}
+
+.sleeping-bunny-text-container {
+    width: 700px;
+}
+
+.sleeping-bunny-text-wrapper {
+    width: 600px;
+}
+
+.sleeping-bunny-text-wrapper *,
+.sleeping-bunny-text-wrapper-down * {
+    padding-bottom: 15px;
+}
+
+.sleeping-bunny-button {
+    justify-content: center;
+}
+
+.sleeping-bunny-text-wrapper-down {
+    width: 600px;
+    padding-left: 100px;
+}
+
+
+/* CATEGORIES SECTION */
+
+.categories-image {
+    height: 319px;
+    width: 319px;
+}
+
+.categories-card-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* A CHOCLATY SECTION WITH IMAGE OF BUNNY  */
+
+.section-with-guineadad-image-and-text {
+    background-color: rgba(133, 61, 16, 1);
+    margin: 80px 0;
+    padding: 80px 65px;
+    justify-content: center;
+}
+
+.section-with-guineadad-image-and-text-wrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 296px;
+}
+
+.section-with-guineadad-images {
+    height: 600px;
+    width: 600px;
+}
+
+.guneadad-image {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.section-with-guineadad-text-wrapper {
+    max-width: 500px;
+    align-items: flex-start;
+}
+
+
+/* MULTIOPTION */
+
+.multioption {
+    margin-bottom: 80px;
+}
+
+.multioption-card {
+    align-items: center;
+    padding: 0 70px;
+}
+
+.multioption-container {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.community-wrapper--bottom,
+.multioption-wrapper.gap-30px {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* REVEIW SECTION*/
+.review-wrapper {
+    background: rgba(246, 249, 251, 1);
+    padding: 80px 0;
+}
+
+.review-card-holder {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    width: 346px;
+    background: white;
+    padding: 80px 30px;
+    align-items: center;
+}
+
+.reveiw-image {
+    border-radius: 9999999px;
+}
+
+.name {
+    font-family: 'Playfair Display';
+    color: rgba(34, 40, 42, 1);
+}
+
+.review-title {
+    align-items: center;
+}
+
+
+/* INSTAGRAM FEED */
+
+.instagram-feed {
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.instagram-posts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.insta-pics {
+    height: 364px;
+    width: 364px;
+}
+
+
+/*     FOOTER     */
+
+footer {
+    background: rgba(34, 40, 42, 1);
+}
+
+.footer-upper {
+    justify-content: space-between;
+    padding: 80px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.footer-upper-child,
+.footer-upper-child ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Subscribe {
+    background: rgba(133, 61, 16, 0);
+    border: 2px solid white;
+    border-radius: 999999px;
+    padding: 17px 10px;
+    outline: none;
+    width: 355px;
+}
+
+.Subscribe::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-bottum {
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 90px;
+    align-items: center;
+}
+
+
+/* THE RESPONSIVE WEBSITE */
+
+@media (max-width: 1440px) {
+    .gap-30px {
+        gap: 15px;
+    }
+
+    .arrow {
+        padding-left: 5px;
+    }
+}
+
+
+/* RESPONSIVE FOR 1200 PX */
+
+@media (max-width: 1200px) {
+    .gap-30px {
+        gap: 30px;
+    }
+
+    .header-content-left {
+        display: none;
+    }
+
+    .hem-burger {
+        display: inline-block;
+        padding: 40px;
+    }
+
+    .header-content {
+        left: 30px;
+    }
+
+    .sleeping-bunny-image-with-text-wrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sleeping-bunny-image-container {
+        width: 100%;
+    }
+
+    .sleeping-bunny-text-container,
+    .section-with-guineadad-image-and-text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sleeping-bunny-text-wrapper-down {
+        padding: 0;
+        width: 100%
+    }
+
+    .section-with-guineadad-image-and-text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .sleeping-bunny-text-wrapper {
+        width: 100%;
+    }
+
+    .instagram-posts {
+        grid-template-columns: auto auto;
+    }
+
+    /* AFTER IT */
+    .footer-upper {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 80px;
+    }
+
+    .sleeping-bunny-image-with-text-wrapper.flex.reversed {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* RESPONSIVE FOR 990 PX */
+
+@media (max-width: 990px) {
+    .footer-upper {
+        grid-template-columns: auto;
+    }
+
+    .instagram-posts {
+        grid-template-columns: auto;
+    }
+
+    .section-with-guineadad-image-and-text-wrapper {
+        flex-direction: column;
+    }
+
+    .section-with-guineadad-images {
+        width: 100%;
+    }
+}
+
+
+/* RESPONSIVE FOR 750 PX */
+
+@media (max-width: 750px) {
+    h2.h1 {
+        font-size: 30px;
+    }
+
+    .std-39px {
+        font-size: 25px;
+    }
+
+    .sleeping-bunny-text-wrapper-down {
+        padding: 0;
+        width: 100%;
+    }
+
+    .section-with-guineadad-image-and-text {
+        padding: 80px 0 0 0;
+    }
+
+    .header,
+    .hem-burger {
+        padding: 0 10px;
+    }
+
+    .header-content-right {
+        display: none;
+    }
+
+    .paragraph,
+    .banner-heading {
+        color: #00ffe5;
+    }
+
+    .product-card--gone {
+        display: none;
+    }
+
+    .pic-for-sml-scr {
+        display: inline-block;
+    }
+
+    .pic-for-lrg-scr {
+        display: none;
+    }
+
+    .instagram-posts {
+        grid-template-columns: 250px;
+    }
+
+    .input,
+    .input input {
+        flex-direction: column;
+        width: 70vw;
+    }
+
+    .instagram-feed {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .insta-pics {
+        height: 300px;
+        width: 300px;
+    }
+
+    .footer-bottum {
+        flex-direction: column;
+    }
+
+    .section-with-guineadad-image-and-text-wrapper {
+        gap: 50px;
+    }
+
+    .section-with-guineadad-text-wrapper {
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* AFTER IT */
+}
+
+
+
+
+
+
+/*  Dark Mode By JavaScript  */
+.dark-mode {
+    background: rgba(34, 40, 42, 1);
+    color: white;
+     
+        a{
+            color:white;
+        }
+    } 
