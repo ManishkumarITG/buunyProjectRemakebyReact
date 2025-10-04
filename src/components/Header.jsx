@@ -13,7 +13,7 @@ export default function Header() {
                 <div id="header" class="header page-width flex gap-40px">
                     <div class="header-content-left">
                         <ul class="flex gap-30px">
-                            <li><NavLink to="#">Shop For Genuien Pigs
+                            <li><NavLink to="/">Home
                                     <span>
                                         <svg class="arrow" width="14" height="8" viewBox="0 0 14 8" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@ export default function Header() {
                                     </span>
                                 </NavLink>
                             </li>
-                            <li><NavLink to="#">Our Story</NavLink></li>
+                            <li><NavLink to="/About">About</NavLink></li>
                             <li><NavLink to="#">Blogs</NavLink></li>
                         </ul>
                     </div>
